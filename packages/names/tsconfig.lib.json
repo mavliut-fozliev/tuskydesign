@@ -9,14 +9,10 @@
     "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
     "emitDeclarationOnly": false,
     "declaration": true,
-    "types": [
-      "node"
-    ]
+    "types": ["node"]
   },
-  "include": [
-    "**/*.ts"
-  ],
-  "references": [],
+  "include": ["**/*.ts"],
+  "references": [{"path":"../util/tsconfig.lib.json"}],
   "exclude": [
     "dist",
     "src/**/*.test.ts",
